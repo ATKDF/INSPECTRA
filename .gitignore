@@ -1,0 +1,31 @@
+# Dependencies (regenerate with `composer install`)
+/vendor/
+
+# User-uploaded content (test/dev artifacts; keep the access-control rule)
+/uploads/*
+!/uploads/.htaccess
+
+# Environment / local config overrides
+.env
+.env.*
+
+# Real app config with live secrets — copy config.example.php to config.php
+/config.php
+
+# Historical incremental schema changes — already merged into
+# database/inspectra_db_complete_schema.sql, the one file a fresh install needs.
+# Kept locally as a dev changelog, not tracked in git.
+/database/migrations/
+
+# Logs
+*.log
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local-only project notes and AI-assistant workspace state
+/PRESENTATION_SCRIPT.md
+/.claude/

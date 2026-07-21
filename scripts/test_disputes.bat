@@ -1,0 +1,3 @@
+@echo off
+echo Testing disputes table...
+"C:\xampp\mysql\bin\mysql.exe" -u root inspectra_db -e "SHOW TABLES LIKE 'dispute%';"
