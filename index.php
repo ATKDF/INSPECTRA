@@ -32,6 +32,7 @@ $heroStats['resolution_rate'] = $disputeStats && $disputeStats['total'] > 0
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Inspectra — Smart Vehicle Rental & Inspection</title>
+<link rel="icon" type="image/svg+xml" href="<?= APP_URL ?>/assets/img/favicon.svg">
 <meta name="description" content="The premium vehicle rental platform with digital inspection, damage verification and automated reporting. Rent with confidence.">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="<?= APP_URL ?>/assets/css/index.css">

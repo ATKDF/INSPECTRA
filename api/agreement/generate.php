@@ -23,6 +23,7 @@ $agentRef  = APP_URL . '/api/agreement/generate.php?booking_id=' . $bookingId;
 <head>
 <meta charset="UTF-8">
 <title>Rental Agreement — <?= e($booking['booking_ref']) ?></title>
+<link rel="icon" type="image/svg+xml" href="<?= APP_URL ?>/assets/img/favicon.svg">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
